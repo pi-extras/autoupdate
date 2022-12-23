@@ -18,7 +18,7 @@ fi
 
 # Core functions
 source api
-TOKENSCRIPT="/root/token.sh"
+TOKENSCRIPT="/root/secrets/token.sh"
 if [ ! -f $TOKENSCRIPT ]; then
     error "$TOKENSCRIPT couldn't be found. Exiting."
 fi
